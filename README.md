@@ -1,13 +1,13 @@
 # Notes
 
 ## Perl
-### Fix text files between Windows and Mac OS in one line
+### Fix text files between Windows and Mac OS
 ```
 perl -pi -e 's/\r\n|\n|\r/\n/g'
 ```
 
 ## R
-### How to draw the boxplot with significant level?
+### Boxplot with significance level
 ```
 pp <- ggplot(mtcars, aes(factor(cyl), mpg)) + geom_boxplot()
 df1 <- data.frame(a = c(1, 1:3,3), b = c(39, 40, 40, 40, 39))
