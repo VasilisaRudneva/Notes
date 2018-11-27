@@ -18,7 +18,7 @@ pp + geom_line(data = df1, aes(x = a, y = b)) + annotate("text", x = 2, y = 42, 
      geom_line(data = df2, aes(x = a, y = b)) + annotate("text", x = 1.5, y = 38, label = "**", size = 8) +
      geom_line(data = df3, aes(x = a, y = b)) + annotate("text", x = 2.5, y = 27, label = "n.s.", size = 8)
 ```
-### Q-Q Plots
+### Q-Q Plot
 ```
 log_obs_pvalues=data2$V2
 log_obs_pvalues = sort(log_obs_pvalues)
