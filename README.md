@@ -29,3 +29,7 @@ plot (log_uni_pvalues,log_obs_pvalues, xlab=expression(Theoretical~~-log[10](ita
 abline(0,1, col="red")
 hist(data.tmp2$adj.P.Val)
 ```
+### Run a simple R script from the command line
+```
+Rscript -e "a=5; print(a)"
+```
